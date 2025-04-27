@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jatuntaqui - Comunidad Kichwa Otavalo</title>
+    <link rel="stylesheet" href="home-styles.css">
+    <link rel="stylesheet" href="footer.css">
+</head>
+
+<body>
+    <div id="navbar-container"></div>
+    <div class="homepage" id="homepage">
+        <!-- Slider -->
+        <div class="slider-container">
+            <button class="slider-btn left" id="prevBtn">&#8592;</button>
+            <div class="slider-track" id="sliderTrack">
+                <a href="https://www.torneopro.app/jatun-taqui/78" class="slider-link">
+                    <img src="assets/images/image5.jpeg" alt="Slide 1" class="slider-image">
+                </a>
+                <a href="events.html" class="slider-link">
+                    <img src="assets/images/Logooo.png" alt="Slide 2" class="slider-image">
+                </a>
+            </div>
+            <button class="slider-btn right" id="nextBtn">&#8594;</button>
+        </div>
+
+        <!-- Sección de la historia -->
+        <section class="history-section">
+            <h2 class="history-title">Nuestra Historia</h2>
+            <p class="history-text">
+                Nuestra cultura es un reflejo de nuestras raíces, tradiciones y valores. A través de los años, hemos preservado nuestras costumbres, música, danzas y gastronomía, que son el alma de nuestra identidad. Cada rincón de nuestra tierra cuenta una historia, y cada tradición es un legado que compartimos con orgullo.
+            </p>
+            <img src="assets/images/image6.jpeg" alt="Historia Jatuntaqui" class="history-image">
+        </section>
+
+        <!-- Sección de fundadores -->
+        <section class="founders-section">
+            <h2 class="founders-title">Nuestros miembros Fundadores</h2>
+            <img src="assets/images/image2.jpg" alt="Fundadores Jatuntaqui" class="founders-image">
+            <ul class="founders-list">
+                <li class="founder-item">Marco Humberto Lima Maigua</li>
+                <li class="founder-item">Luis Laurentino Chiza Lema</li>
+                <li class="founder-item">Carlos Segundo Manrique Potosi</li>
+                <li class="founder-item">María Rebeca Lima Maigua</li>
+                <li class="founder-item">Robertina Lema Chiza</li>
+                <li class="founder-item">Julio Enrique Liman Moran</li>
+                <li class="founder-item">Segundo José Lema Chiza</li>
+                <li class="founder-item">Rafael Lema Chiza</li>
+                <li class="founder-item">Alex Javier Lima Amaguaña</li>
+                <li class="founder-item">José Joaquín Lima Chiza</li>
+                <li class="founder-item">Juan Xavier Duque Saransing</li>
+                <li class="founder-item">Diego Armando Lema Cordova</li>
+            </ul>
+        </section>
+
+        <!-- Misión y Visión -->
+        <section class="mission-vision-section">
+            <div class="mv-container">
+                <div class="mv-card mission-card">
+                    <h3>MISIÓN</h3>
+                    <p class="mv-text">
+                        Preservar y difundir la historia, tradiciones y valores de la comunidad Jatuntaqui, pueblo indígena Kichwa Otavalo, a través de la memoria colectiva y el legado de nuestros ancestros. Queremos compartir con el mundo cómo iniciativas simples, como el fútbol entre vecinos y el equipo Atahualpa, se convirtieron en símbolos de unidad, identidad y alegría. Nuestra página web busca ser un puente entre generaciones, rescatando anécdotas, costumbres y la riqueza cultural que nos define.
+                    </p>
+                </div>
+                <div class="mv-card vision-card">
+                    <h3>VISIÓN</h3>
+                    <p class="mv-text">
+                        Ser un referente digital de la cultura Jatuntaqui, donde las nuevas generaciones y el mundo conozcan nuestra historia auténtica, desde los relatos de nuestros mayores hasta las expresiones contemporáneas de nuestra comunidad. Aspiramos a que esta plataforma fortalezca el orgullo identitario, inspire la preservación de nuestras raíces y fomente la conexión entre comunidades indígenas y aliados globales, siempre bajo el espíritu de "jugar, compartir y vivir nuestra cultura", tal como lo hicieron nuestros antepasados.
+                    </p>
+                </div>
+            </div>
+        </section>
+        <div id="footer-container"></div>
+
+        <!-- Loading overlay (oculto inicialmente) -->
+        <div class="loading-overlay" id="loadingOverlay" style="display: none;">
+            <img src="assets/images/icon.jpg" alt="Cargando..." class="loading-logo">
+        </div>
+    </div>
+
+    <script src="home-script.js"></script>
+    <script src="load-navbar.js"></script>
+</body>
+</html>

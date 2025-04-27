@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Footer</title>
+  <link rel="stylesheet" href="footer.css">
+  <script defer src="home-script.js"></script>
+  <!-- Agregamos los iconos de Remix Icon CDN -->
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+</head>
+<body>
+
+  <footer class="footer">
+    <!-- Efecto de carga -->
+    <div class="loading-overlay" id="loadingOverlay">
+      <img src="assets/images/icon.jpg" alt="Cargando..." class="loading-logo">
+    </div>
+
+    <!-- Redes sociales -->
+    <div class="footer-socials">
+      <a onclick="handleNavigation('https://www.facebook.com/share/1Em2EsAHAR/')" class="social-icon" style="cursor: pointer;">
+        <i class="ri-facebook-fill" style="font-size: 30px;"></i>
+      </a>
+      <a onclick="handleNavigation('https://www.instagram.com')" class="social-icon" style="cursor: pointer;">
+        <i class="ri-instagram-fill" style="font-size: 30px;"></i>
+      </a>
+      <a onclick="handleNavigation('https://www.linkedin.com')" class="social-icon" style="cursor: pointer;">
+        <i class="ri-linkedin-fill" style="font-size: 30px;"></i>
+      </a>
+    </div>
+
+    <!-- Información de contacto -->
+    <div class="footer-info">
+      <div class="info-item">
+        <i class="ri-map-pin-fill info-icon" style="font-size: 20px;"></i>
+        <p><strong>Dirección:</strong> Atuntaqui, Imbabura, Ecuador.</p>
+      </div>
+      <div class="info-item">
+        <i class="ri-phone-fill info-icon" style="font-size: 20px;"></i>
+        <p><strong>Celular:</strong> +593 95 885 0819</p>
+      </div>
+      <div class="info-item">
+        <i class="ri-mail-fill info-icon" style="font-size: 20px;"></i>
+        <p><strong>Correo:</strong> anthonychiza09@gmail.com</p>
+      </div>
+    </div>
+
+    <!-- Copyright -->
+    <div class="footer-copyright">
+      <p>Copyright © 2025 Marck Chiza. Todos los derechos reservados</p>
+    </div>
+  </footer>
+
+</body>
+</html>

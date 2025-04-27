@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eventos - Jatuntaqui</title>
+    <link rel="stylesheet" href="styles-event.css">
+</head>
+>
+
+<body>
+    <div id="navbar-container"></div>
+    <div class="event-page">
+        <!-- Banner con video -->
+        <div class="banner-container">
+            <video class="banner-video" autoplay loop muted playsInline>
+                <source src="assets/images/coming.mp4" type="video/mp4">
+                Tu navegador no soporta el video.
+            </video>
+            <div class="banner-text">
+                <h1>Bienvenidos a Nuestros Eventos</h1>
+                <p>Descubre lo mejor de nuestra comunidad</p>
+            </div>
+        </div>
+
+        <!-- Encabezado de eventos -->
+        <header class="event-header">
+            <h1>Próximos Eventos</h1>
+            <p>Descubre los eventos más recientes y participa con nosotros.</p>
+        </header>
+
+        <!-- Lista de eventos -->
+        <div class="event-list" id="eventList">
+            <!-- Los eventos se cargarán aquí con JavaScript -->
+        </div>
+    </div>
+
+    <script src="event-script.js"></script>
+    <script src="load-navbar.js"></script>
+</body>
+</html>
