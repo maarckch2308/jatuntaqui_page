@@ -132,17 +132,17 @@ document.addEventListener('DOMContentLoaded', function() {
     initSlider();
 
     // Cargar footer dinámico
-    fetch('footer.html')
+    fetch('pages/footer.html')
         .then(response => response.text())
         .then(data => {
             document.getElementById('footer-container').innerHTML = data;
             const link = document.createElement('link');
             link.rel = 'stylesheet';
-            link.href = 'footer.css';
+            link.href = 'css/footer.css';
             document.head.appendChild(link);
 
             const script = document.createElement('script');
-            script.src = 'footer.js';
+            script.src = 'js/footer.js';
             document.body.appendChild(script);
         })
         .catch(error => console.error('Error cargando el footer:', error));
