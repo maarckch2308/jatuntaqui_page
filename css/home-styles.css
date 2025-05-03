@@ -272,11 +272,11 @@
 /* Responsive para slides */
 @media (max-width: 780px) {
   .slider-container {
-    height: 55vh;
+    height: 45vh;
   }
 
   .slider-image {
-    height: 55vh;
+    height: 43vh;
     object-fit: cover;
   }
 
